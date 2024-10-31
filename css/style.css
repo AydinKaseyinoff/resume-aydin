@@ -161,16 +161,12 @@ main {
   width: 20%;
   transition: 1s;
 }
-
 .work-box:hover {
-  .hidden-about {
-    display: flex;
-    transition: all 500;
-  }
+  box-shadow: 10px 10px rgb(190, 20, 238);
+  transform: translateY(20px);
 }
 
 .hidden-about {
-  display: none;
   color: #fff;
   font-size: 20px;
   transition: 1s;
