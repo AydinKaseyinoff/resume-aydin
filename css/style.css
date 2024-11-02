@@ -34,6 +34,7 @@ nav {
 
 nav ul {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 
@@ -57,6 +58,7 @@ nav ul a:hover {
 nav ul h1 {
   color: #fff;
   cursor: none;
+  align-items: center;
   transition: 500ms;
 }
 
@@ -209,6 +211,12 @@ main {
   flex-wrap: wrap;
 }
 
+.contacts-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .contacts-text h1 {
   line-height: 35px;
 }
@@ -219,4 +227,31 @@ main {
   justify-content: space-between;
   align-items: center;
   color: #fff;
+}
+
+.contacts-btn {
+  display: flex;
+  gap: 30px;
+}
+
+.contacts-btn a {
+  color: #fff;
+  font-size: 25px;
+}
+
+.contacts-text,
+.contacts-img {
+  width: 50%;
+}
+
+.contacts-img video {
+  width: 100%;
+}
+
+.hobby-box {
+  color: #fff;
+}
+
+.hobby-content {
+  display: flex;
 }
