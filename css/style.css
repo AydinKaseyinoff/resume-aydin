@@ -4,6 +4,7 @@
   list-style: none;
   text-decoration: none;
   border: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,6 +51,7 @@ nav ul a {
 
 nav ul a:hover {
   border: 1px solid rgb(190, 20, 238);
+  background-color: rgba(191, 20, 238, 0.276);
   .primery {
     color: #fff;
   }
@@ -166,6 +168,7 @@ main {
 .work-box:hover {
   border: 2px solid rgb(190, 20, 238);
   box-shadow: 10px 10px rgb(190, 20, 238);
+  background-color: rgba(191, 20, 238, 0.199);
   transform: translateY(-20px);
   color: rgb(190, 20, 238);
 }
@@ -237,6 +240,12 @@ main {
 .contacts-btn a {
   color: #fff;
   font-size: 25px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  transition: 500ms;
+}
+.contacts-btn a:hover {
+  border-bottom: 2px solid rgb(190, 20, 238);
+  color: rgb(190, 20, 238);
 }
 
 .contacts-text,
@@ -252,6 +261,12 @@ main {
   color: #fff;
   border: 1px solid rgb(190, 20, 238);
   padding: 10px;
+  transition: 500ms ease-in-out;
+}
+
+.hobby-box:hover {
+  box-shadow: 0 10px 5px rgb(190, 20, 238);
+  background-color: rgba(191, 20, 238, 0.116);
 }
 
 .hobby-content {
