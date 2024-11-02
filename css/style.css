@@ -250,8 +250,11 @@ main {
 
 .hobby-box {
   color: #fff;
+  border: 1px solid rgb(190, 20, 238);
+  padding: 10px;
 }
 
 .hobby-content {
   display: flex;
+  padding-block: 50px;
 }
