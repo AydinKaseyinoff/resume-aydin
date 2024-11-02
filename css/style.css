@@ -83,7 +83,7 @@ main {
 .main-content {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 60px;
 }
 
 .main-content h1 {
@@ -156,14 +156,27 @@ main {
 
 .work-box {
   padding: 25px;
-  border: 2px solid rgb(190, 20, 238);
-  flex-direction: column;
+  border: 2px solid rgba(47, 47, 47, 0.252);
+  align-content: center;
   width: 20%;
   transition: 1s;
 }
 .work-box:hover {
+  border: 2px solid rgb(190, 20, 238);
   box-shadow: 10px 10px rgb(190, 20, 238);
-  transform: translateY(20px);
+  transform: translateY(-20px);
+  color: rgb(190, 20, 238);
+}
+
+.work-box:last-child {
+  text-align: center;
+  img {
+    background-color: #fff;
+  }
+}
+.work-box:last-child:hover {
+  box-shadow: 10px 10px #fff;
+  border: 5px solid rgb(69, 64, 64);
 }
 
 .hidden-about {
@@ -174,7 +187,10 @@ main {
 }
 
 .title-works {
-  text-align: center;
+  padding-block: 20px;
+  border-bottom: 2px solid rgb(190, 20, 238);
+  color: #fff;
+  font-size: 30px;
 }
 
 .work-box img {
@@ -183,4 +199,24 @@ main {
 
 #main-car {
   position: relative;
+}
+
+.work-boxes {
+  display: flex;
+  padding-block: 40px;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contacts-text h1 {
+  line-height: 35px;
+}
+
+.contacts-content {
+  padding-block: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
 }
