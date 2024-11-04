@@ -9,6 +9,9 @@
   .main-img img {
     width: 50%;
   }
+  .contacts-text {
+    width: 100%;
+  }
   .contacts-img img {
     display: none;
   }
@@ -35,5 +38,8 @@
   }
   .hobby-box {
     width: 100%;
+  }
+  .contacts-btn {
+    display: contents;
   }
 }
