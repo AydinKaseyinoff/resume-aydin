@@ -1,13 +1,12 @@
 @media (max-width: 1400px) {
   .main {
-    flex-direction: column-reverse;
   }
   .main-img {
     display: flex;
     justify-content: center;
   }
   .main-img img {
-    width: 50%;
+    display: none;
   }
   .contacts-text {
     width: 100%;
@@ -33,6 +32,12 @@
 }
 
 @media (max-width: 999px) {
+  .main-content h1 {
+    font-size: 45px;
+  }
+  .main-content {
+    gap: 40px;
+  }
   .work-box {
     width: 100%;
   }
