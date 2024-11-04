@@ -1,8 +1,39 @@
 @media (max-width: 1400px) {
+  .main {
+    flex-direction: column-reverse;
+  }
+  .main-img {
+    display: flex;
+    justify-content: center;
+  }
   .main-img img {
+    width: 50%;
+  }
+  .contacts-img img {
+    display: none;
+  }
+  .work-box {
+    width: 30%;
+  }
+  .hobby-box {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1200px) {
+  main {
+    padding-top: 100px;
+  }
+  nav ul:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 999px) {
+  .work-box {
     width: 100%;
   }
-  .contacts-content {
-    flex-wrap: wrap;
+  .hobby-box {
+    width: 100%;
   }
 }
