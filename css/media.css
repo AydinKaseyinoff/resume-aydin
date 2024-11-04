@@ -1,0 +1,8 @@
+@media (max-width: 1400px) {
+  .main-img img {
+    width: 100%;
+  }
+  .contacts-content {
+    flex-wrap: wrap;
+  }
+}
